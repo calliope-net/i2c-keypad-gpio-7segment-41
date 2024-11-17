@@ -1,4 +1,5 @@
 function toByte (ziffer: number) {
+    pins.comment(pins.pins_text("7 Segmente GFEDCBA 7 Bit 6543210"))
     if (ziffer == 0) {
         return qwiicgpio.parseint("0111111", qwiicgpio.eRadix.BIN)
     } else if (ziffer == 1) {
