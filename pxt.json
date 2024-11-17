@@ -1,5 +1,6 @@
 {
     "name": "i2c-keypad-gpio-7segment-41",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
